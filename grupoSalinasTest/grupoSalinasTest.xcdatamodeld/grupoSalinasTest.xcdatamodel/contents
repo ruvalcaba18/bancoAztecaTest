@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FavoriteShows" representedClassName=".FavoriteShows" isAbstract="YES" syncable="YES">
+        <attribute name="externals" optional="YES" attributeType="String" customClassName=".[String]"/>
+        <attribute name="imagen" optional="YES" attributeType="String" customClassName=".[String]"/>
+        <attribute name="name" optional="YES" attributeType="String" customClassName=".[String]"/>
+        <attribute name="summary" optional="YES" attributeType="String" customClassName=".[String]"/>
+        <fetchedProperty name="fetchedProperty" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="FavoriteShows"/>
+        </fetchedProperty>
+    </entity>
+    <elements>
+        <element name="FavoriteShows" positionX="-63" positionY="-18" width="128" height="131"/>
+    </elements>
 </model>
